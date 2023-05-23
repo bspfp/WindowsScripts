@@ -1,9 +1,9 @@
 @ECHO OFF
 
-:: íƒìƒ‰ê¸° ì¢…ë£Œ
-:: IconCache.db íŒŒì¼ ì†ì„± ë³€ê²½
-:: IconCache.db íŒŒì¼ ì‚­ì œ
-:: íƒìƒ‰ê¸° ì‹œìž‘
+:: Å½»ö±â Á¾·á
+:: IconCache.db ÆÄÀÏ ¼Ó¼º º¯°æ
+:: IconCache.db ÆÄÀÏ »èÁ¦
+:: Å½»ö±â ½ÃÀÛ
 
 taskkill /F /IM explorer.exe && ^
 ATTRIB %USERPROFILE%\AppData\Local\IconCache.db -S -R -H && ^
