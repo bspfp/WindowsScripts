@@ -58,6 +58,7 @@ Windows 사용하면서 가끔 사용하는 각종 스크립트 모음
 
 ### Realtek USB Lan 꺼내기
 - [EjectRealtekCD](Network/EjectRealtekCD.ps1)
+- 역시 안되네...
 - 용도
   - Realtek 무선랜 + 블루투스 일부 모델이 PC에서 CDROM으로 잡히고 꺼내기를 해야 원래 용도로 동작하는 것이 있어서
 - 참고
