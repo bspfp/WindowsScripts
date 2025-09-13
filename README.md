@@ -2,16 +2,17 @@
 
 Windows 사용하면서 가끔 사용하는 각종 스크립트 모음
 
-- [WindowsScripts](#windowsscripts)
-  - [탐색기](#탐색기)
-    - [아이콘 캐싱 재설정](#아이콘-캐싱-재설정)
-  - [네트워크](#네트워크)
-    - [VPN 사용할 때 설정 변경](#vpn-사용할-때-설정-변경)
-    - [Realtek USB Lan 꺼내기](#realtek-usb-lan-꺼내기)
-  - [명령 프롬프트](#명령-프롬프트)
-    - [파일 쓰기 시간 변경](#파일-쓰기-시간-변경)
-  - [git](#git)
-    - [특정 git 명령을 하위 폴더들에서 모두 수행](#특정-git-명령을-하위-폴더들에서-모두-수행)
+- [탐색기](#탐색기)
+  - [아이콘 캐싱 재설정](#아이콘-캐싱-재설정)
+- [네트워크](#네트워크)
+  - [VPN 사용할 때 설정 변경](#vpn-사용할-때-설정-변경)
+  - [Realtek USB Lan 꺼내기](#realtek-usb-lan-꺼내기)
+- [명령 프롬프트](#명령-프롬프트)
+  - [파일 쓰기 시간 변경](#파일-쓰기-시간-변경)
+- [git](#git)
+  - [특정 git 명령을 하위 폴더들에서 모두 수행](#특정-git-명령을-하위-폴더들에서-모두-수행)
+- [장치 관리](#장치-관리)
+  - [8Bitdo Wireless Controller 관리](#8bitdo-wireless-controller-관리)
 
 ## 탐색기
 
@@ -57,6 +58,7 @@ Windows 사용하면서 가끔 사용하는 각종 스크립트 모음
     - VPN 환경에서 내부 DNS가 꼭 필요하다거나
 
 ### Realtek USB Lan 꺼내기
+
 - [EjectRealtekCD](Network/EjectRealtekCD.ps1)
 - 역시 안되네...
 - 용도
@@ -83,3 +85,11 @@ Windows 사용하면서 가끔 사용하는 각종 스크립트 모음
 - [giteach.cmd](git/giteach.cmd)
 - 용도
   - 저장소에서 모조리 pull 하고 싶을 떄?
+
+## 장치 관리
+
+### 8Bitdo Wireless Controller 관리
+
+[8bitdo.ps1](pwsh/8bitdo.ps1)
+8Bitdo Wireless Controller의 알 수 없는 장치들로 크래시 발생할 때  
+(Assassin's Creed)
